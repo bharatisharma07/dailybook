@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { -webkit-user-select: none; user-select: none; }
+
+/* Thin scrollbar for the log feed */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #404040; border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: #525252; }
